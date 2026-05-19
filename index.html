@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Lagging Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Генератор Случайных Ответов 🌀</h1>
+    <p>Введите ваш вопрос к Вселенной:</p>
+    
+    <div class="search-box">
+        <input type="text" id="userInput" placeholder="Например: How take pizza">
+        <button id="fetchBtn">Спросить</button>
+    </div>
+
+    <div id="loader" class="hidden">
+        <div class="spinner"></div>
+        <p id="statusText">Анализирую нейроны...</p>
+    </div>
+
+    <div id="content"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
